@@ -1,6 +1,3 @@
-# python3
-
-
 class Query:
     def __init__(self, query):
         self.type = query[0]
@@ -45,4 +42,6 @@ def process_queries(queries):
 
 if __name__ == '__main__':
     write_responses(process_queries(read_queries()))
+
+
 
