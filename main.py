@@ -35,6 +35,7 @@ def process_queries(queries):
             response = 'not found'
             if cur_query.number in contacts:
                 result.append(contacts.get(cur_query.number))
+                break
             else:
                 result.append(response)
                 
